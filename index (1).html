@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример с HTML, CSS и JavaScript</title>
+    <link rel="stylesheet" href="style (1).css">
+</head>
+<body class="light-theme">
+    
+    <div class="menu">
+        <div class="logo">
+            <h2 id="logo">Preżentacja</h2>
+        </div>
+        <h1>Меню</h1>
+        <nav>
+            <a href="#" onclick="changeContent('Главная')">Главная</a>
+            <a href="#" onclick="changeContent('О нас')">О нас</a>
+            <a href="#" onclick="changeContent('Контакты')">Контакты</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle"></button> 
+    </div>
+
+    <div class="content">
+        <h2 id="content1">Основной текст 1</h2>
+        <h2 id="content2">Основной текст 2</h2>
+        <h2 id="content3">Основной текст 3</h2>
+        
+        <p id="mainText">Это пример основного текста. Нажмите на ссылки в меню, чтобы изменить этот текст.</p>
+        <button onclick="resetContent()">Вернуться на главную строничку</button>
+    </div>
+
+    <script src="script (1).js"></script>
+</body>
+</html>
