@@ -1,13 +1,13 @@
 function changeContent(section) {
     const mainText = document.getElementById('mainText');
     switch (section) {
-        case 'Главная':
+        case 'Home':
             mainText.textContent = 'Вы находитесь на главной странице.';
             break;
-        case 'О нас':
+        case 'Video':
             mainText.textContent = 'Мы - команда разработчиков, создающих веб-приложения.';
             break;
-        case 'Контакты':
+        case 'material':
             mainText.textContent = 'Свяжитесь с нами по электронной почте: example@example.com';
             break;
         default:
