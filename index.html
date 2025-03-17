@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zagrożenia naturalne, budowlane i komunikacyjne</title>
+    <link rel="stylesheet" href="style (1).css">
+</head>
+<body class="light-theme">
+    
+    <div class="menu">
+        <div class="logo">
+            <h2 id="logo">Preżentacja</h2>
+        </div>
+        <h1>Menu</h1>
+        <nav>
+            <a href="#" onclick="changeContent('Home')">Strona główna</a>
+            <a href="#" onclick="changeContent('Video')">Video</a>
+            <a href="#" onclick="changeContent('material')">Materiały</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle"></button> 
+        <button id="language-toggle" class="language-toggle">PL</button> 
+    </div>
+
+    <div class="content">
+        <h2 id="content1">Основной текст 1</h2>
+        <p id="content1_dop1">Под текст1.1</p>
+        <h2 id="content2">Основной текст 2</h2>
+        <p id="content2_dop1">Под текст2.1</p>
+        <h2 id="content3">Основной текст 3</h2>
+        <p id="content3_dop1">Под текст3.1</p>
+        
+        <p id="mainText">Text</p>
+        <div id="video-container" style="display: none;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="material-container" style="display: none;">
+            <img src="google_logo.png" alt="Google Logo" width="100">
+            <img src="youtube_logo.png" alt="YouTube Logo" width="100">
+            <img src="book_logo.png" alt="Book Logo" width="100">
+        </div>
+        <button onclick="resetContent()">Home ➠</button>
+    </div>
+
+    <script src="script (1).js"></script>
+</body>
+</html>
