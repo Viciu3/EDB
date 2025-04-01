@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo img {
+    height: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a span {
+    margin-top: 5px;
+    background: linear-gradient(to right, pink, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Стили для первой секции */
+.section1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.section1 img {
+    max-width: 50%; /* Изображение занимает половину ширины */
+    height: auto;
+}
+
+.section1-content {
+    flex-grow: 1; /* Контент занимает оставшуюся ширину */
+    padding: 20px;
+}
+
+/* Стили для второй секции */
+.section2 .image-container {
+    display: flex; /* Используем flexbox для расположения изображений в строку */
+    justify-content: center; /* Центрируем изображения по горизонтали */
+    margin-bottom: 10px; /* Добавляем отступ между изображениями и текстом */
+}
+
+.section2 .image-container img {
+    max-width: 48%; /* Уменьшаем ширину изображений */
+    margin: 0 1%; /* Добавляем отступ между изображениями */
+}
