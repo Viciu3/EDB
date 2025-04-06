@@ -10,8 +10,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const backButton2 = document.getElementById("BackButton2");
     const backButton3 = document.getElementById("BackButton3");
     const backButton4 = document.getElementById("BackButton4");
+    const video1Button = document.getElementById('video1Button');
+    const burzeVideo = document.getElementById('burze-video');
 
-    // Скрыть section2 и section3 при загрузке страницы
+    // Скрыть section2, section3, section4 при загрузке страницы
     section2.style.display = "none";
     section3.style.display = "none";
     section4.style.display = "none";
@@ -54,4 +56,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Добавьте обработчики событий для других кнопок (NextButton(n) ,BackButton(n))
     // если вам нужно переключаться между секциями
+
+    // Добавляем обработчик для video1Button
+    video1Button.addEventListener('click', function(event) {
+        event.preventDefault(); // Предотвращаем стандартное поведение ссылки
+        if (burzeVideo.style.display === 'none') {
+            burzeVideo.style.display = 'block'; // Показываем видео
+        } else {
+            burzeVideo.style.display = 'none'; // Скрываем видео
+        }
     });
+
+});

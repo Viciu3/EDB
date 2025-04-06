@@ -85,6 +85,10 @@ button {
     display: flex;
     align-items: center;
     text-align: left;
+    font-size: 35px;
+    background-color: rgba(138, 43, 226, 0.7); /* 0.5 - полупрозрачный */
+    height: auto;
+    width: auto;
 }
 
 .section1 img {
@@ -98,6 +102,15 @@ button {
 }
 
 /* Стили для второй секции */
+
+.section2 {
+    font-size: 35px;
+    background-color: rgba(138, 43, 226, 0.7); /* 0.5 - полупрозрачный */
+    height: auto;
+    width: auto;
+}
+
+
 .section2 .image-container {
     display: flex; /* Используем flexbox для расположения изображений в строку */
     justify-content: center; /* Центрируем изображения по горизонтали */
@@ -107,4 +120,39 @@ button {
 .section2 .image-container img {
     max-width: 48%; /* Уменьшаем ширину изображений */
     margin: 0 1%; /* Добавляем отступ между изображениями */
+}
+
+#burze-video {
+  width: 550px; /* Уменьшаем ширину видео до 550px */
+  height: auto; /* Высота автоматически подстраивается под ширину */
+  max-height: 100vh; /* Максимальная высота видео - 100% высоты экрана */
+  margin: 20px auto; /* Добавляем отступ сверху и снизу и центрируем по горизонтали */
+  display: block; /* Отображаем видео как блочный элемент */
+}
+/* Стили для третёй секции */
+
+.section3 {
+    font-size: 35px;
+    background-color: rgba(138, 43, 226, 0.7); /* 0.5 - полупрозрачный */
+    height: auto;
+    width: auto;
+}
+
+.section3 .image-container {
+    display: flex; /* Используем flexbox для расположения изображений в строку */
+    justify-content: center; /* Центрируем изображения по горизонтали */
+    margin-bottom: 10px; /* Добавляем отступ между изображениями и текстом */
+}
+
+.section3 .image-container img {
+    max-width: 48%; /* Уменьшаем ширину изображений */
+    margin: 0 1%; /* Добавляем отступ между изображениями */
+}
+
+#Powódź-video {
+  width: 550px; /* Уменьшаем ширину видео до 550px */
+  height: auto; /* Высота автоматически подстраивается под ширину */
+  max-height: 100vh; /* Максимальная высота видео - 100% высоты экрана */
+  margin: 20px auto; /* Добавляем отступ сверху и снизу и центрируем по горизонтали */
+  display: block; /* Отображаем видео как блочный элемент */
 }
