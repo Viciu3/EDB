@@ -12,7 +12,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const backButton4 = document.getElementById("BackButton4");
     const video1Button = document.getElementById('video1Button');
     const burzeVideo = document.getElementById('burze-video');
+    const video2Button = document.getElementById('video2Button');
+    const Powodzvideo = document.getElementById('Powodz-video');
 
+    
+    
     // Скрыть section2, section3, section4 при загрузке страницы
     section2.style.display = "none";
     section3.style.display = "none";
@@ -64,6 +68,16 @@ document.addEventListener("DOMContentLoaded", function() {
             burzeVideo.style.display = 'block'; // Показываем видео
         } else {
             burzeVideo.style.display = 'none'; // Скрываем видео
+        }
+    });
+    
+    // Добавляем обработчик для video2Button
+    video2Button.addEventListener('click', function(event) {
+        event.preventDefault(); // Предотвращаем стандартное поведение ссылки
+        if (Powodzvideo.style.display === 'none') {
+            Powodzvideo.style.display = 'block'; // Показываем видео
+        } else {
+            Powodzvideo.style.display = 'none'; // Скрываем видео
         }
     });
 
