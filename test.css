@@ -172,7 +172,7 @@ button {
 /* Стили для третёй секции */
 
 .section3 {
-    font-size: 35px;
+    font-size: 25px;
     background-color: rgba(138, 43, 226, 0.7); /* 0.5 - полупрозрачный */
     height: auto;
     width: auto;
