@@ -196,3 +196,69 @@ button {
   margin: 20px auto; /* Добавляем отступ сверху и снизу и центрируем по горизонтали */
   display: block; /* Отображаем видео как блочный элемент */
 }
+
+.section4 {
+    font-size: 35px;
+    background-color: rgba(149, 59, 236, 0.7); /* 0.5 - полупрозрачный */
+    height: auto;
+    width: auto;
+}
+
+#Khali-video {
+  width: 430px; /* Уменьшаем ширину видео до 550px */
+  height: auto; /* Высота автоматически подстраивается под ширину */
+  max-height: 100vh; /* Максимальная высота видео - 100% высоты экрана */
+  margin: 20px auto; /* Добавляем отступ сверху и снизу и центрируем по горизонтали */
+  display: block; /* Отображаем видео как блочный элемент */
+}
+
+.section5 {
+    font-size: 25px;
+    background-color: rgba(138, 43, 226, 0.7); /* 0.5 - полупрозрачный */
+    height: auto;
+    width: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+
+.section6 {
+    font-size: 25px;
+    background-color: rgba(138, 43, 226, 0.7); /* 0.5 - полупрозрачный */
+    height: auto;
+    width: auto;
+}
+
+.section7 {
+    font-size: 25px;
+    background-color: rgba(138, 43, 226, 0.7); /* 0.5 - полупрозрачный */
+    height: auto;
+    width: auto;
+}
+
+#SZCZEKOCINAMI-video {
+  width: 430px; /* Уменьшаем ширину видео до 550px */
+  height: auto; /* Высота автоматически подстраивается под ширину */
+  max-height: 100vh; /* Максимальная высота видео - 100% высоты экрана */
+  margin: 20px auto; /* Добавляем отступ сверху и снизу и центрируем по горизонтали */
+  display: block; /* Отображаем видео как блочный элемент */
+}
+
+.section8 {
+    font-size: 65px;
+    background-color: rgba(138, 43, 226, 0.9); /* 0.7 - полупрозрачный */
+    height: auto;
+    width: auto;
+}
+#Pożary-video {
+  width: 430px; /* Уменьшаем ширину видео до 550px */
+  height: auto; /* Высота автоматически подстраивается под ширину */
+  max-height: 100vh; /* Максимальная высота видео - 100% высоты экрана */
+  margin: 20px auto; /* Добавляем отступ сверху и снизу и центрируем по горизонтали */
+  display: block; /* Отображаем видео как блочный элемент */
+}

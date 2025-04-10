@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDB</title>
+  <link rel="stylesheet" href="test.css">
+  <style>
+    .container2 {
+      border: 2px solid black;
+      padding: 20px;
+      margin: 0 20px; /* Отступ слева и справа по 20px */
+    }
+
+    .container2 h1 {
+      text-align: center;
+    }
+
+    .container2 ol {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .container2 li {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 15px;
+    }
+
+    .container2 li:before {
+      content: "●";
+      font-size: 1.0em;
+      color: black;
+      margin-right: 10px;
+      min-width: 20px;
+      text-align: right;
+    }
+
+    .container2 li p {
+      margin: 0;
+    }
+  
+  </style>
+</head>
+<body>
+
+  <video autoplay muted loop id="background-video">
+    <source src="fonts_test.mp4" type="video/mp4">
+  </video>
+
+  <nav>
+    <div class="logo">
+      <img src="logo2.png" alt="Logo">
+    </div>
+    <ul>
+      <li>
+        <a href="#" id="Home">
+          <img src="Home.png" alt="Home">
+          <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" id="Info">
+          <img src="Info.png" alt="Info">
+          <span>Info</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="section1">
+    <img src="photo1.jpg" alt="foto 1">
+    <div class="section1-content">
+      <h1>Katasrofa naturalna</h1>
+      <p id="Katasrofa">jest to zdarzeniem związanym z działaniem sił natury.
+        Mogą ją spowodować:
+      </p>
+      <ul>
+        <li>Burza</li>
+        <li>Wstrząsy sejsmiczne</li>
+        <li>Pożary</li>
+        <li>Powódź</li>
+        <li>Silne wiatry</li>
+        <li>lub lnne katastrofy</li>
+      </ul>
+      <a href="#" id="NextButton">
+        <img src="arrow_icon.png" alt="Następny">
+      </a>
+    </div>
+  </section>
+
+  <section class="section2">
+    <div class="image-container">
+      <img src="burza1.png" alt="foto 2.1">
+      <img src="burza2.png" alt="foto 2.2">
+    </div>
+    <h2>Burza</h2>
+    <p>Jest zjawiskiem atmosferycznym, charakteryzującym się intensywnymi, ulewnymi opadami, połączonymi często z wyładowaniami atmosferycznymi oraz silnym wiatrem. Może jej towarzyszyć również grad. W czasie burzy najlepiej schronić się w budynku. Nie należy słuchać przez słuchawki radia podłączonego do kontaktu, bezpieczniejsze są odbiorniki на baterie. Nie jest również bezpieczne kąpanie się w wannie, korzystanie z wody bieżącej, dotykanie kranu czy kaloryфера. Najlepiej odłączyć od źródła prądu wszystkie urządzenia elektryczne.</p>
+
+    <div class="container1" style="background-color: transparent;">
+      <div class="safety-box" style="background-color: transparent;">
+        <h1>Zasady bezpieczeństwa podczas burzy</h1>
+        <p>Jeśli zaskoczy Cię burza na otwartym terenie, powinieneś stosować się do następujących zasad:</p>
+
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-text">Jeśli jedziesz samochodem, postaraj się zatrzymać i przeczekać burzę. Omijaj miejsca pod drzewami lub konstrukcjami, które mogą zostać przewrócone lub uszkodzone; zachowaj szczególną ostrożność podczas wyjeżdżania na otwartą przestrzeń z drogi osłoniętej ekranami, budynkami lub drzewami.</div>
+          <img class="step-image" src="car.png" alt="Samochód">
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-text">Nie parkuj pojazdów w pobliżu drzew, rusztowań, stalowych konstrukcji, tablic reklamowych, trakcji elektrycznych itp.</div>
+          <img class="step-image" src="parking.png" alt="Parkowanie">
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-text">Unikaj przebywania na otwartej przestrzeni, szukaj schronienia w budynku, a jeśli to niemożliwe, postaraj się przyjąć bezpieczną pozycję (kucnij, zbliżając stopy maksymalnie do siebie).</div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">4</div>
+          <div class="step-text">Jeśli jesteś w grupie osób, rozdzielcie się, żeby nie tworzyć skupiska.</div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">5</div>
+          <div class="step-text">Nie rozmawiaj przez telefon komórkowy (najlepiej go wyłącz).</div>
+          <img class="step-image" src="phone.png" alt="Telefon">
+        </div>
+
+        <div class="step">
+          <div class="step-number">6</div>
+          <div class="step-text">Zejdź z roweru, żeby nie dotykać jego metalowych części.</div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">7</div>
+          <div class="step-text">Nie zatrzymuj się pod pojedynczym wysokim drzewem ani w pobliżu wysokich konstrukcji, linii wysokiego napięcia, przewodów lub trakcji, unikaj kontaktu z metalowymi przedmiotami; zejdź ze szczytów wzniesień w obniżenie terenu.</div>
+          <img class="step-image" src="tree.png" alt="Drzewo">
+        </div>
+
+        <div class="step">
+          <div class="step-number">8</div>
+          <div class="step-text">Jeśli kąpiesz się w zbiorniku wodnym, natychmiast wyjdź na brzeg.</div>
+          <img class="step-image" src="swimming.png" alt="Pływanie">
+        </div>
+      </div>
+
+      <div class="safety-box" style="background-color: transparent;">
+        <h1>Zasady bezpieczeństwa podczas burzy śnieżnej</h1>
+        <p>Jeśli podczas burzy śnieżnej utkniesz w drodze, postępuj zgodnie z poniższymi zasadami:</p>
+
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-text">Pozostań w samochodzie i nie szukaj pomocy samemu.</div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-text">Umocuj na antenie lub dachu samochodu jaskrawą część ubrania (najlepiej koloru czerwonego), aby była widoczna dla ratowników.</div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-text">Pozostaw włączone światła (drogowe lub awaryjne), abyś był widoczny.</div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">4</div>
+          <div class="step-text">Siedząc w samochodzie, poruszaj ramionami i nogami w celu utrzymania prawidłowego krążenia krwi.</div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">5</div>
+          <div class="step-text">Oszczędnie korzystaj z ogrzewania samochodowego.</div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">6</div>
+          <div class="step-text">Uważaj, aby spaliny z pracującego silnika nie dostawały się do wnętrza samochodu.</div>
+        </div>
+        <video id="burze-video" style="display: none;" controls poster="poster.jpg" allowfullscreen>
+          <source src="Burze.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <a href="#" id="BackButton2">
+      <img src="back_arrow_icon2.png" alt="Назад 2">
+    </a>
+    <a href="#" id="video1Button">
+      <img src="video1.png" alt="video 1">
+    </a>
+    <a href="#" id="NextButton2">
+      <img src="arrow_icon2.png" alt="Następny 2">
+    </a>
+  </section>
+
+  <section class="section3">
+    <div class="image-container">
+      <img src="photo3.jpg" alt="foto 3">
+      <img src="photo4.jpg" alt="foto 4">
+    </div>
+    <h3>Powódź</h3>
+    <p>Jej przyczy-ną są najczęściej spiętrzenia wód w rzekach, które występują z brzegów i zalewają duże obszary. Powodzie stanowią poważne nie-bezpieczeństwo dla zdrowia i życia ludzi oraz zwierząt. Powodują zniszczenia budynków, infrastruktury i upraw rolnych.</p>
+    <div class="container2">
+      <h1>Zasady postępowania w trakcie powodzi:</h1>
+      <ol>
+        <li><p>nie zwlekaj z ewakuacją , wykonuj polecenia wydawane przez kierujących akcją ;</p></li>
+        <li><p>dzieciom i osobom z ograniczoną świadomością , znajdującym się pod twoją opieką , przypnij do ubrań kartki z ich imieniem i nazwiskiem oraz kontaktem do ich opiekunów ;</p></li>
+        <li><p>sprawdź , czy sąsiedzi usłyszeli informację o ewakuacji , słuchaj lokalnych stacji radiowych lub telewizyjnych i oczekuj na komunikaty z zasadami postępowania ;</p></li>
+        <li><p>pamiętaj , aby zabrać ze sobą niezbędne leki przyjmowane przez domowników , ważne dokumenty , pieniądze , telefon komórkowy z ładowarką , radio na baterie , latarkę ;</p></li>
+        <li><p>bagaż spakuj w sposób umożliwiający łatwe przenoszenie , jego waga nie powinna przekraczać 20 kg na jedną osobę , a w sumie 50 kg na rodzinę ;</p></li>
+        <li><p>słuchaj komunikatów radiowych i telewizyjnych , nie wracaj do domu , dopóki władze nie ogłoszą , że jest to bezpieczne ;</p></li>
+        <li><p>podczas wchodzenia do zalanych budynków , zachowaj szczególną ostrożność , używaj nieprzemakalnego obuwia , unikaj kontaktu z wodami powodziowymi .</p></li>
+      </ol>
+      <video id="Powodz-video" style="display: none;" controls poster="poster.jpg" allowfullscreen>
+        <source src="Powodz.mp4" type="video/mp4">
+      </video>
+    </div>
+    <a href="#" id="BackButton3">
+      <img src="back_arrow_icon3.png" alt="Назад 3"></a>
+    <a href="#" id="video2Button">
+      <img src="video3.png" alt="video 3"></a>
+    <a href="#" id="NextButton3">
+      <img src="arrow_icon3.png" alt="Następny 3"></a>
+  </section>
+
+  <section class="section4">
+    <img src="katastrofa_budowlana.png" alt="foto 5">
+    <h3>Katastrofa budowlana</h3>
+    <p>Katastrofy budowlane najczęściej są spowodowane: wybuchami gazu, obsunięciem stropów lub nadwerężeniem ważnych elementów konstrukcyjnych budynków oraz tąpnięciami.</p>
+    <p>17 lat temu w Katowicach podczas targów gołębi, zawalił się dach hali MTK. Zginęło 65 osób, ponad 140 zostało rannych, a 26 z nich doznało ciężkiego uszczerbku na zdrowiu. Była to największa katastrofa budowlana w historii Polski. Dziś podczas rocznicy złożono kwiaty i znicze przed pomnikiem ofiar.</p>
+    <video id="Khali-video" style="display: none;" controls poster="poster.jpg" allowfullscreen>
+      <source src="Katastrofa_hali.mp4" type="video/mp4">
+    </video>
+    <a href="#" id="BackButton4">
+      <img src="back_arrow_icon4.png" alt="Назад 4"></a>
+    <a href="#" id="video3Button">
+      <img src="video3.png" alt="video 3"></a>
+    <a href="#" id="NextButton4">
+      <img src="arrow_icon4.png" alt="Następny 4"></a>
+  </section>
+
+  <section class="section5">
+    <img src="photo6.jpg" alt="foto 6">
+    <h3>Wypadek komunikacyjny</h3>
+    <p>Wypadek komunikacyjny – zdarzenie w ruchu lądowym, morskim lub powietrznym, w którym uczestniczy co najmniej jeden pojazd (z napędem silnikowym lub bez takiego napędu) oraz którego skutki są odpowiednio poważne.</p>
+    <table>
+      <tr>
+        <th>Czynność</th>
+        <th>Opis</th>
+      </tr>
+      <tr>
+        <td>Zabezpiecz miejsce zdarzenia</td>
+        <td>Wyłącz zapłon w uszkodzonych samochodach.</td>
+      </tr>
+      <tr>
+        <td>Ostrzeż innych uczestników ruchu</td>
+        <td>Ustaw trójkąt ostrzegawczy w odpowiedniej odległości, w nocy oświetl miejsce wypadku światłami swojego samochodu.</td>
+      </tr>
+      <tr>
+        <td>Wezwij służby ratownicze</td>
+        <td>Zadzwoń na numery alarmowe 112, 997, 998, 999 (połączenie jest bezpłatne), kanał 9 CB-radia dla wszystkich służb ma priorytet rozmów na hasło „RATUNEK”.</td>
+      </tr>
+      <tr>
+        <td>Udziel pierwszej pomocy przedmedycznej</td>
+        <td>Udziel pierwszej pomocy poszkodowanym.</td>
+      </tr>
+    </table>
+    <a href="#" id="BackButton5">
+      <img src="back_arrow_icon5.png" alt="Назад 5"></a>
+    <a href="#" id="NextButton5">
+      <img src="arrow_icon5.png" alt="Następny 5"></a>
+  </section>
+
+  <section class="section6">
+    <img src="photo7.jpg" alt="foto 7">
+    <h3>Katastrofa kolejowa pod Szczekocinami, 2012</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Czynność, gdy jesteś świadkiem katastrofy kolejowej</th>
+                <th>Szczegóły</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Powiadomić służby ratownicze</td>
+                <td>Straż Pożarna, Pogotowie Ratunkowe</td>
+            </tr>
+            <tr>
+                <td>Udzielić pomocy lżej poszkodowanym</td>
+                <td>Gdy nie grozi to pożarem, wybuchem i gdy nie ma innych zagrożeń</td>
+            </tr>
+            <tr>
+                <td>Oddalić się szybko z miejsca katastrofy</td>
+                <td>Gdy jest podejrzenie wycieku niebezpiecznej substancji lub wybuchu, i ostrzegać innych świadków zdarzenia</td>
+            </tr>
+            <tr>
+                <td>Jeśli byłeś uczestnikiem katastrofy</td>
+                <td>Nie opuszczaj miejsca zdarzenia bez przebadania przez lekarza, ponieważ skutki mogą się ujawnić dopiero po kilku godzinach</td>
+            </tr>
+        </tbody>
+    </table>
+    <video id="SZCZEKOCINAMI-video" style="display: none;" controls poster="poster.jpg" allowfullscreen>
+    <source src="SZCZEKOCINAMI.mp4" type="video/mp4">
+    </video>
+    <a href="#" id="BackButton6">
+      <img src="back_arrow_icon6.png" alt="Назад 6"></a>
+    <a href="#" id="video4Button">
+      <img src="video4.png" alt="video 4"></a>
+    <a href="#" id="NextButton6">
+      <img src="arrow_icon6.png" alt="Następny 6"></a>
+  </section>
+
+  <section class="section7">
+    <img src="photo8.jpg" alt="foto 8">
+    <h3>Zagrożenia pożarowe</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Zasady bezpiecznego i skutecznego gaszenia małych pożarów:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wyłączyć dopływ prądu i gazu do domu.</td>
+            </tr>
+            <tr>
+                <td>Jak najszybciej ewakuować ludzi i zwierzęta z miejsc zagrożonych pożarem.</td>
+            </tr>
+            <tr>
+                <td>Odciąć dostęp powietrza do ognia przez pozamykanie drzwi i okien oraz uszczelnienie innych otworów w ścianach.</td>
+            </tr>
+            <tr>
+                <td>Odciąć ogień od materiałów palnych przez usunięcie ich z miejsca objętego pożarem.</td>
+            </tr>
+            <tr>
+                <td>Dążyć do obniżenia temperatury środowiska pożarowego za pomocą odpowiednich środków gaśniczych.</td>
+            </tr>
+            <tr>
+                <td>Szybko dotrzeć do źródła ognia i gasić żar (zarzewie), a nie płomienie.</td>
+            </tr>
+            <tr>
+                <td>Gasić ogniska pożaru z poziomu równego lub wyższego – co umożliwia obserwowanie skuteczności działania.</td>
+            </tr>
+        </tbody>
+    </table>
+    <video id="Pożary-video" style="display: none;" controls poster="poster.jpg" allowfullscreen>
+    <source src="Pożary.mp4" type="video/mp4">
+    </video>
+    <a href="#" id="BackButton7">
+      <img src="back_arrow_icon7.png" alt="Назад 7"></a>
+    <a href="#" id="video5Button">
+      <img src="video5.png" alt="video 5"></a>
+    <a href="#" id="NextButton7">
+      <img src="arrow_icon7.png" alt="Następny 7"></a>
+  </section>
+
+  <section class="section8">
+    <h3>Koniec</h3>
+    <a href="#" id="BackButton8">
+      <img src="back_arrow_icon8.png" alt="Назад 8"></a>
+  </section>
+
+  <script src="test.js"></script>
+</body>
+</html>
